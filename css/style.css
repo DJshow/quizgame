@@ -1,0 +1,56 @@
+/* common */
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+/* main */
+main {
+  margin: 32px auto;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.problem {
+  background: skyblue;
+  width: calc(100% - 64px);
+  margin: 0 auto;
+}
+
+.problem h1 {
+  padding: 16px 32px;
+  line-height: 1.6;
+}
+
+.answer {
+  text-align: center;
+}
+
+.answer button {
+  margin-top: 24px;
+  padding: 8px 32px;
+  background: rgba(0, 0, 255, .5);
+  color: white;
+}
+
+.answer button:hover {
+  cursor: pointer;
+  opacity: .8;
+}
